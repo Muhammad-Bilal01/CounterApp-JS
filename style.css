@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  background-image: url("./bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin: 0;
+}
+.countdown {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.countdown h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.countdown .time {
+  font-size: 2rem;
+}
+.time {
+  display: flex;
+  gap: 40px;
+}
+.time p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
